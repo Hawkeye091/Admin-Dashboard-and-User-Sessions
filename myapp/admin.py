@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import MySimpleModel
+from .models import MySimpleModel, UserProfileInfo
 from io import StringIO
 # Register your models here.
 class MyAdmin(admin.ModelAdmin):
